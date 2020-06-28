@@ -1,0 +1,167 @@
+.home-page .filter-bar {
+  position: sticky;
+  width: 250px;
+  padding: 15px;
+  top: 60px;
+}
+
+.home-page .filter-bar .fixed-div {
+  position: sticky;
+  top: 100px;
+}
+
+.home-page .content .sort-result-div {
+  width: calc(100% - 250px);
+  position: sticky;
+  top: 74px;
+  height: 80px;
+  width: 100%;
+  z-index: 1;
+  background: #fff;
+  padding: 20px 15px 15px 15px;
+}
+
+.home-page .content .sort-result-div .post-results {
+  font-size: 14px;
+}
+
+.home-page .content .sort-result-div .post-sort-by {
+  /* padding-top: 10px; */
+  min-width: 100px;
+}
+.home-page .content .sort-result-div .post-sort-by label {
+  font-size: 13px;
+}
+
+.home-page .content .sort-result-div .post-sort-by div {
+  font-size: 13px;
+}
+
+.home-page .content {
+  width: calc(100% - 250px);
+}
+
+.filter-list {
+  max-height: 267px;
+  overflow-y: auto;
+}
+
+.filter-list .MuiListItem-dense {
+  padding: 0 10px !important;
+}
+
+.filter-list .MuiListItem-dense {
+  height: 30px !important;
+  color: #565656 !important;
+}
+
+.filter-list .MuiListItemIcon-root {
+  min-width: 35px;
+}
+
+.filter-list .MuiCheckbox-colorSecondary.Mui-checked {
+  color: #c19d0d !important;
+}
+
+.clear-filters {
+  position: relative;
+  color: rgb(109, 109, 109);
+  font-size: 14px;
+  text-align: right;
+  margin-top: 0;
+  right: 10px;
+  cursor: pointer;
+}
+
+.clear-filters:hover {
+  color: #c19d0d;
+}
+
+.filter-title {
+  margin: 0 0 0 8px !important;
+  font-size: 16px !important;
+}
+
+.filter-divider {
+  margin: 15px 5px 20px 5px !important;
+}
+
+.filter-gender {
+  width: 35px;
+  border-radius: 50%;
+  padding: 10px;
+  margin-right: 15px;
+  margin-top: 18px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  border: 2px solid #b7b7b7;
+}
+
+.active-gender {
+  background: #c19d0d;
+  border: 2px solid #c19d0d;
+}
+
+.input-range {
+  width: 90%;
+  margin: auto;
+  margin-top: 35px;
+  margin-bottom: 55px;
+}
+
+.input-range__slider {
+  background: #c19d0d;
+  border: 1px solid #c19d0d;
+}
+
+.input-range__track--active {
+  background: #c19d0d;
+}
+
+.input-range__label {
+  color: #565656;
+  font-size: 14px;
+}
+
+.filter-radio-container {
+  max-height: 267px;
+  overflow-y: auto;
+}
+
+.filter-radio .MuiFormControlLabel-root {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.filter-radio .MuiFormControlLabel-root {
+  margin-left: 0;
+  margin-right: 0;
+  height: 30px !important;
+  color: #565656 !important;
+  font-size: 16px !important;
+}
+
+.filter-radio .MuiFormControlLabel-root:hover {
+  background: rgba(0, 0, 0, 0.04);
+}
+
+.filter-radio .MuiFormControlLabel-label {
+  font-size: 0.875rem !important;
+  padding-left: 8px;
+}
+
+.filter-radio .MuiRadio-colorSecondary.Mui-checked {
+  color: #c19d0d !important;
+}
+
+.close-filters {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 20px;
+}
+
+.pagination-div {
+  float: right;
+  padding: 0 15px;
+}

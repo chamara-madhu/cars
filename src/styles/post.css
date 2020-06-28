@@ -1,0 +1,99 @@
+.post {
+  display: inline-block;
+  width: 18%;
+  margin: 0 1% 2% 1%;
+}
+
+.post .img-div {
+  position: relative;
+  height: 200px;
+  background: rgb(240, 240, 240);
+}
+
+.post .img-div img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.post .img-div .stock {
+  position: absolute;
+  right: 0;
+  background: rgb(199, 199, 199);
+  font-size: 14px;
+  padding: 3px 10px;
+  color: #000;
+}
+
+.post .postedAt {
+  font-weight: 300;
+  padding-top: 8px;
+  overflow: hidden;
+  font-size: 12px;
+  margin-bottom: 0;
+}
+
+.post .location {
+  font-weight: 300;
+  padding-top: 8px;
+  overflow: hidden;
+  font-size: 12px;
+  margin-bottom: 0;
+  text-align: right;
+}
+
+.post .name {
+  font-weight: 500;
+  padding-top: 8px;
+  height: 60px;
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+
+.post .size {
+  font-weight: 300;
+  font-size: 12px;
+}
+
+.post .price {
+  font-weight: 500;
+  font-size: 15px;
+  margin-bottom: 0;
+  padding: 4px 0;
+}
+
+.post .contact {
+  background: #0a9c0a;
+  color: #fff;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 12px;
+  margin-bottom: 0;
+  float: right;
+  padding: 3px 10px;
+  border-radius: 28px;
+}
+
+@media (max-width: 991px) {
+  .post {
+    display: inline-block;
+    width: 47%;
+    margin: 0 1.25% 2% 1.25%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1224px) {
+  .post {
+    display: inline-block;
+    width: 31%;
+    margin: 0 1% 2% 1%;
+  }
+}
+
+@media (min-width: 1225px) and (max-width: 1500px) {
+  .post {
+    display: inline-block;
+    width: 23%;
+    margin: 0 1% 2% 1%;
+  }
+}
