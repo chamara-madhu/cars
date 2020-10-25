@@ -8,7 +8,7 @@ import Logo from "../../../images/lovelyarts.png";
 
 import "../../../styles/navbar.css";
 
-export default class Navbar extends Component {
+export default class NavbarShop extends Component {
   state = {
     // drawer
     rightDrawer: false,
@@ -33,21 +33,13 @@ export default class Navbar extends Component {
   render() {
     return (
       <React.Fragment>
-        <nav class="navbar sticky-top p-3 client-nav-bar">
+        <nav class="navbar sticky-top  bg-light p-3 client-nav-bar">
           <Link to="/">
             <img src={Logo} className="logo" alt="lovelyarts Logo" />
           </Link>
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <Link to="/login" class="nav-link">
-                Login
-              </Link>
-              <Link to="/register" class="nav-link">
-                Register
-              </Link>
-              <span class="nav-link" onClick={this.toggleDrawer(true)}>
-                <i className="far fa-user user-icon"></i>
-              </span>
+              <Link class="nav-link">(+94) 710 193 314</Link>
             </li>
           </ul>
         </nav>

@@ -2,46 +2,41 @@
   background-size: cover;
   width: 100%;
   border-radius: 0;
-  background: #f8f9fa;
-  margin-top: 50px;
+  background: #022431;
+  color: #fff;
 }
 
-/* .footer-sec table {
-  color: #161616;
-} */
-
 .footer {
-  color: #212529;
   line-height: 30px;
   font-size: 15px;
   height: auto;
 }
 
 .footer-sub-heading {
-  color: #212529;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 500;
+}
+
+.footer .footer-link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 300;
 }
 
 .footer a {
-  color: #212529;
-  text-decoration: none;
+  color: #fff;
 }
 
-.footer a:hover {
-  font-weight: 500;
+.footer .footer-link:hover {
+  font-weight: 400;
 }
 
 .follow-us {
   font-size: 30px;
 }
 
-.follow-us:hover {
-  color: #212529;
-}
-
 .footer-logo {
-  width: 180px;
+  width: 120px;
   display: block;
   margin-bottom: 25px;
 }

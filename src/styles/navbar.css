@@ -1,3 +1,28 @@
-.logo {
-  width: 200px;
+.client-nav-bar {
+  background: #001325;
+  height: 65px;
+}
+
+.client-nav-bar .logo {
+  width: 120px;
+}
+
+.client-nav-bar .nav-link {
+  display: inline;
+  color: #fff;
+  margin-left: 15px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.client-nav-bar .nav-link:hover {
+  font-weight: 400;
+}
+
+.client-nav-bar .user-icon {
+  font-size: 20px;
+  border: 1.5px solid #565656;
+  padding: 8px 10px;
+  border-radius: 50%;
+  cursor: pointer;
 }

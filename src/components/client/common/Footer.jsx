@@ -17,23 +17,35 @@ export default class Footer extends Component {
           <div className="row footer">
             <div className="col-sm-6 col-md-2 pt-5  text-center">
               <p className="mb-4 footer-sub-heading">Quick links</p>
-              <Link to="/">Home</Link>
+              <Link className="footer-link" to="/">
+                Home
+              </Link>
               <br />
-              <Link to="/about">About us</Link>
+              <Link className="footer-link" to="/about">
+                About us
+              </Link>
             </div>
 
             <div className="col-sm-6 col-md-3 pt-5 text-center">
               <p className="mb-4 footer-sub-heading">Support</p>
-              <Link to="/faq">FAQs</Link>
+              <Link className="footer-link" to="/faq">
+                FAQs
+              </Link>
               <br />
-              <Link to="/contact">Contact us</Link>
+              <Link className="footer-link" to="/contact">
+                Contact us
+              </Link>
             </div>
 
             <div className="col-sm-6 col-md-2 pt-5 text-center">
               <p className="mb-4 footer-sub-heading">Legal</p>
-              <Link to="/">Terms & conditions</Link>
+              <Link className="footer-link" to="/">
+                Terms & conditions
+              </Link>
               <br />
-              <Link to="/">Privacy policy</Link>
+              <Link className="footer-link" to="/">
+                Privacy policy
+              </Link>
             </div>
 
             <div className="col-sm-6 col-md-2 pt-5 text-center">
@@ -57,7 +69,11 @@ export default class Footer extends Component {
             </div>
 
             <div className="col-md-3 pt-5">
-              <table align="center" style={{ margin: "auto" }}>
+              <table
+                align="center"
+                style={{ margin: "auto" }}
+                style={{ fontWeight: 300 }}
+              >
                 <tbody>
                   <tr>
                     <td colSpan="2">
@@ -70,7 +86,7 @@ export default class Footer extends Component {
                   </tr>
                   <tr>
                     <td>
-                      <i className="fa fa-map-marker mr-4" />
+                      <i className="fa fa-map-marker-alt mr-4" />
                     </td>
                     <td>No. 77/A,</td>
                   </tr>
@@ -102,7 +118,7 @@ export default class Footer extends Component {
 
                   <tr>
                     <td>
-                      <i className="fa fa-mobile-alt" />
+                      <i class="fas fa-phone fa-rotate-90"></i>
                     </td>
                     <td>(+94) 710 193 314</td>
                   </tr>
@@ -118,7 +134,7 @@ export default class Footer extends Component {
                   fontSize: "14px",
                 }}
               >
-                &copy; 2020 lovelyarts.store
+                &copy; 2020 cars.lk
               </span>
               <span
                 style={{

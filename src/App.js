@@ -7,6 +7,8 @@ import {
 } from "react-router-dom";
 
 import Home from "./pages/Home";
+import DetailPage from "./pages/DetailPage";
+// import Shop from "./pages/Shop";
 
 // // load isAuthenticated method
 // import { isAuthenticated } from "./auth/auth";
@@ -29,7 +31,9 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route path="/" exact component={Home} />
+        <Route path="/cars" exact component={Home} />
+        {/* <Route path="/shop" exact component={Shop} /> */}
+        <Route path="/:id" exact component={DetailPage} />
       </Switch>
     </Router>
   );
